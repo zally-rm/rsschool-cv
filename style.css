@@ -9,7 +9,7 @@
 	--text-color: #727171;
 }
 
-nav ul {
+nav ul, footer {
 	display: flex;
 	font-size: 18px;
 	padding: 30px 0px;
@@ -117,4 +117,12 @@ hr {
 	margin: auto;
 	margin-top: 65px;
 	color: rgba(128, 128, 128, 0.229);
+}
+
+footer a {
+	width: 10%;
+}
+
+footer p {
+	padding-top: 15px;
 }
