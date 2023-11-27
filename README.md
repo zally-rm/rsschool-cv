@@ -1,2 +1,3 @@
 # rsschool-cv
-Git repository made for the "CV. Markdown" task
+Link to my CV website:
+https://zally-rm.github.io/rsschool-cv/

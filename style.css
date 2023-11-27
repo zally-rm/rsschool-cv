@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* variables for colors */
+:root {
+	--primary-color: rgb(216, 177, 151);
+	--text-color: #727171;
+}
+
+nav ul, footer {
+	display: flex;
+	font-size: 18px;
+	padding: 30px 0px;
+	justify-content: space-evenly;
+	list-style: none;
+	background-color: rgb(112, 76, 31);
+}
+
+body {
+	font-family: Inter, sans-serif;
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+}
+
+/* links */
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.description {
+	font-size: 20px;
+	color: var(--text-color);
+}
+
+/* titles */
+.title {
+	color: var(--primary-color);
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 65px;
+	padding-bottom: 50px;
+}
+
+.item_preTitle {
+	font-size: 20px;
+	color: var(--text-color);
+	font-weight: 300;
+}
+
+.item_title {
+	font-size: 1.6rem;
+	color: white;
+	font-weight: 500;
+}
+
+.item_subtitle {
+	font-size: 1.4rem;
+	color: var(--text-color);
+	font-weight: 400;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	padding: 65px;
+	background: #070707;
+}
+
+#contacts_container {
+	width: 75%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#profile_name {
+	color: var(--primary-color);
+	font-weight: 600;
+	font-size: 60px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.profile_title {
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+}
+
+#skills_container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.list {
+	line-height: 2;
+	font-size: 20px;
+	color: var(--text-color);
+	text-align: left;
+	margin-left: 20px;
+}
+
+#Code_examples p, #Experience {
+	width: 70%;
+	margin: auto;
+}
+
+hr {
+	width: 80%;
+	margin: auto;
+	margin-top: 65px;
+	color: rgba(128, 128, 128, 0.229);
+}
+
+footer a {
+	width: 10%;
+}
+
+footer p {
+	padding-top: 15px;
+}
