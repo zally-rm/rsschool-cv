@@ -1,7 +1,6 @@
 * {
 	padding: 0;
 	margin: 0;
-	/* box-sizing: border-box; */
 }
 
 /* variables for colors */
@@ -9,10 +8,6 @@
 	--primary-color: rgb(216, 177, 151);
 	--text-color: #727171;
 }
-
-/* html {
-	font-size: 10px;
-} */
 
 nav ul {
 	display: flex;
@@ -31,101 +26,58 @@ body {
 	text-align: center;
 }
 
-/* enlaces */
+/* links */
 a {
 	text-decoration: none;
 	color: white;
 }
 
 .description {
-	padding-top: 35px;
 	font-size: 20px;
 	color: var(--text-color);
 }
 
-/* titulos y subtitulos*/
+/* titles */
 .title {
 	color: var(--primary-color);
 	font-weight: 700;
 	font-size: 30px;
 	text-transform: uppercase;
 	padding-top: 65px;
+	padding-bottom: 50px;
 }
 
-
 .item_preTitle {
-	font-size: 1.4rem;
+	font-size: 20px;
 	color: var(--text-color);
 	font-weight: 300;
 }
+
 .item_title {
 	font-size: 1.6rem;
 	color: white;
 	font-weight: 500;
-	margin: 0.8rem 0;
 }
+
 .item_subtitle {
 	font-size: 1.4rem;
 	color: var(--text-color);
 	font-weight: 400;
 }
-/* titulos y subtitulos */
-
-
-
-
-
-
-/* para que este ordenado */
-
 
 .container {
-	/* max-width: 950px; */
 	width: 70%;
 	margin: auto;
-	/* display: grid; */
 	padding: 65px;
 	background: #070707;
-	/* grid-template-columns: 1fr 1fr; */
-	/* gap: 4rem; */
 }
-/* para que este ordenado */
 
-
-
-
-/* donde dice tu nombre y todo */
-/* .profile {
-	grid-column: 1 / -1;
-	margin-bottom: 2rem;
-} */
-/* lo de arriba pues */
-
-
-
-
-/* grupo 1 2 y 3 para cada cosa  */
-/* .group-1,
-.group-2 {
+#contacts_container {
+	width: 75%;
+	margin: auto;
 	display: flex;
-	flex-direction: column;
-	gap: 5rem;
-} */
-.group-3 {
-	max-width: 700px;
-	width: 100%;
-	margin: 0 auto;
-	grid-column: 1/-1;
-	display: flex;
-	flex-direction: row;
-	gap: 5rem;
+	justify-content: space-between;
 }
-/* gruposssss */
-
-
-
-
-/* perfil */
 
 #profile_name {
 	color: var(--primary-color);
@@ -139,66 +91,30 @@ a {
 	font-size: 25px;
 	font-weight: 400;
 	text-transform: uppercase;
-}
-.downloadBtn {
-	display: block;
-	text-decoration: underline;
-	font-size: 1.6rem;
-	margin-top: 1rem;
-}
-.downloadBtn:hover {
-	color: var(--primary-color);
+	padding-bottom: 35px;
 }
 
-
-
-
-
-
-/* todo lo tuyo */
 #skills_container {
 	display: flex;
+	justify-content: space-around;
 }
-.skills_list {
-	margin-top: 1rem;
-	margin-left: 2rem;
+
+.list {
 	line-height: 2;
-}
-
-
-/* eduction */
-.edu_item {
-	margin-top: 2rem;
-}
-
-
-
-/* socials */
-.social_items {
-	margin-top: 2rem;
-}
-.social_item {
-	margin-top: 1.5rem;
-	font-size: 1.5rem;
-	display: flex;
-	gap: 0.5rem;
-	align-items: center;
-	justify-content: flex-start;
+	font-size: 20px;
 	color: var(--text-color);
+	text-align: left;
+	margin-left: 20px;
 }
-.social_item:hover {
-	color: var(--primary-color);
-}
-.social_item svg {
-	width: 2rem;
+
+#Code_examples p, #Experience {
+	width: 70%;
+	margin: auto;
 }
 
 hr {
-	grid-column: 1/-1;
 	width: 80%;
-	margin: 0 auto;
-	margin-top: 5rem;
-	margin-bottom: 1rem;
-	border: none;
-	border-top: 2px solid rgba(128, 128, 128, 0.229);
+	margin: auto;
+	margin-top: 65px;
+	color: rgba(128, 128, 128, 0.229);
 }
